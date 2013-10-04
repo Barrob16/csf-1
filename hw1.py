@@ -10,7 +10,7 @@
 # print the answers to all the problems.
 
 import math                     # makes the math.sqrt function available
-
+import sys                      # makes System.exit function available
 
 ###
 ### Problem 1
@@ -18,29 +18,55 @@ import math                     # makes the math.sqrt function available
 
 print "Problem 1 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+a = 0
+a = input("Enter co-efficient value for a: ")
+b = 0
+b = input("Enter co-efficient value for b: ")
+c = 0
+c = input("Enter co-efficient value for c: ")
 
+if (4*a*c) > (b**2):
+    print str("You are attempting to create an unreal number! System will now exit")
+    sys.exit(0)
+
+root1 = (-b + math.sqrt((b**2) - (4*a*c))) / (2*a)
+root2 = (-b - math.sqrt((b**2) - (4*a*c))) / (2*a)
+print str("\nYour two roots for your quadratic equation are: \n")
+print root1
+print root2
 
 ###
 ### Problem 2
 ###
 
-print "Problem 2 solution follows:"
+print "\n\nProblem 2 solution follows: \n"
 
-# ... write your code and comments here (and remove this line)
+from hw1_test import a, b, c, d, e, f  #Changes the variable definitions above to the values from hw1_test
 
+a = str(a)
+b = str(b)
+c = str(c)
+d = str(d)
+e = str(e)
+f = str(f)
+print a
+print b
+print c
+print d
+print e
+print f
 
 ###
 ### Problem 3
 ###
 
-print "Problem 3 solution follows:"
+print "\n\nProblem 3 solution follows: \n"
 
-# ... write your code and comments here (and remove this line)
-
+newValue = ((a and b) or (not c) and not (d or e or f))
+print newValue
 
 ###
 ### Collaboration
 ###
 
-# ... List your collaborators here, as a comment (on a line starting with "#").
+# Kyle S. -> Various syntax error-related questions.
