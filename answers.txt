@@ -19,20 +19,23 @@ Problem 1:
 
 Problem 2:
 
-...
+GC-content: 0.3
 
 Problem 3:
 
-...
+It gave me an error that said we used "linoleum" without initializing it (defining).
+
+Same as the above error, we used gc_count without defining it.
 
 Problem 4:
 
-...
+GC-content: 0.3
+AT-content: 0.7
 
 Collaboration:
 
-...
+No collaboration on this one
 
 Reflection:
 
-...
+I found it interesting learning to run python programs with relevant text files through the command line. The loop was straightforward. 
