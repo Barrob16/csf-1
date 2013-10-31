@@ -90,6 +90,8 @@ c_content = float(c_count) / total_count
 g_content = float(g_count) / total_count
 t_content = float(t_count) / total_count
 
+atgc_ratio = float(a_count + t_count) / (g_count + c_count)
+
 lengthSeq = 0
 lengthSeq = len(seq)
 verifyTotal = 0
@@ -102,6 +104,7 @@ print 'A-content:', a_content
 print 'C-content:', c_content
 print 'G-content:', g_content
 print 'T-content:', t_content
+print 'AT/GC Ratio: ', atgc_ratio
 print 'Total Content:', total_count
 print 'a + c + g + t: ', verifyTotal
 print 'Number of Characters/ Length:', lengthSeq

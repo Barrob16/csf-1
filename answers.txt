@@ -69,3 +69,18 @@ test-high-gc-2
 test-high-gc-1
 
 The discrepancies always arose between the sum and total count. This is due to other variables (namely: N) being found in the seq. 
+
+Problem 7: 
+GC-content: 0.3
+AT-content: 0.7
+A-content: 0.5
+C-content: 0.2
+G-content: 0.1
+T-content: 0.2
+AT/GC Ratio:  2.33333333333
+Total Content: 10
+a + c + g + t:  10
+Number of Characters/ Length: 10
+
+Problem 8:
+
