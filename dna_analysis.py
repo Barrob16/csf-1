@@ -97,6 +97,14 @@ lengthSeq = len(seq)
 verifyTotal = 0
 verifyTotal = a_count + c_count + g_count + t_count
 
+if (gc_content > .60):
+    classification = "high GC content"
+elif (gc_content < .40):
+    classification = "low GC content"
+else:
+    classification = "moderate GC content"
+
+
 # Print the answer
 print 'GC-content:', gc_content
 print 'AT-content:', at_content
@@ -105,6 +113,12 @@ print 'C-content:', c_content
 print 'G-content:', g_content
 print 'T-content:', t_content
 print 'AT/GC Ratio: ', atgc_ratio
+print 'GC Percentage: {:.2%}.' .format(gc_content)
+print 'GC Classification: ', classification
 print 'Total Content:', total_count
 print 'a + c + g + t: ', verifyTotal
 print 'Number of Characters/ Length:', lengthSeq
+
+
+#Collaboration:
+#Kyle S.
