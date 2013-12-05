@@ -5,6 +5,8 @@ Programming as a Way of Life
 Fall 2013
 Homework 3 and 4
 
+#Nice homework homie. =)
+
 For each problem that requires a written answer, write (or copy-and-paste)
 your answers in this file.  When you are done, you should have replaced all
 the ellipses (the three dots) with your answers.
